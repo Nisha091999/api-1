@@ -1,0 +1,6 @@
+Explanation:
+
+csv.DictWriter is used to write dictionaries (rows) as rows in a CSV file. It takes two arguments: the CSV file object and the fieldnames (column names).
+writer.writeheader() writes the header row (fieldnames) to the CSV file.
+writer.writerows(api_data) writes all the rows of data (api_data) to the CSV file.
+Remember to have the api_data variable containing the list of dictionaries (data to be written) before running this code.
